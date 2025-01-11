@@ -15,12 +15,22 @@ Simplest dashboard for my personal NAS on Ubuntu.
 2.  Install Requirements
 
     ```bash
-    sudo apt install python
+    sudo apt update
+    sudo apt install python3
+    ```
+
+    ```bash
     sudo pip install flask
     ```
 
-3.  Start
+3.  Run
 
     ```bash
     python src/app.py
+    ```
+
+4.  Verify
+
+    ```bash
+    curl localhost:5000
     ```
